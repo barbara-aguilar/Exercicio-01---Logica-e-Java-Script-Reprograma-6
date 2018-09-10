@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	width: 100%;
+}
+
+p{
+	width: 430px;
+    margin-right: 150px;
+    font-size: 51px;
+    align-items: center;
+	text-align: center;
+	background-color: rgba(211, 211, 211, 0.226);
+	padding: 30px;
+}
+
+table {
+	width: 800px;
+	height: 800px;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table tr {
+	height: 20px;
+}
+
+table td {
+	width: 20px;
+	border: 1px solid blue;
+	text-align: center;
+	font-weight: 700;
+	transition: box-shadow 150ms;
+}
+
+td {
+	background-size: cover;
+}
+
+table td:hover {
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
